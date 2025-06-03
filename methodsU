@@ -1,8 +1,15 @@
-{  PackageN:"com.helloworld.iv"="Universal",
-     ["classes3.dex", "u5.1/d", "j", true],         
-     ["classes.dex", "u5.1/d", "j", false] },
+{
+PackageN:"com.helloworld.iv"="Universal",
+["classes3.dex", "u5.1/d", "j", true],
+["classes.dex", "u5.1/d", "j", false]
+}
 
-     
-{  PackageN:"com.treydev.volume"="3.8.5", 
-     ["classes3.dex", "u5.1/d", "j", true],         
-     ["classes.dex", "u5.1/d", "j", false] }   
+{
+PackageN:"com.treydev.volume"="3.8.5",
+["classes3.dex", "u5.1/d", "j", true],
+}
+
+{
+PackageN:"com.example.app"="Universal",
+["classes2.dex", "x/y/z", "test", true]
+}
