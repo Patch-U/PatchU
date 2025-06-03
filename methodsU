@@ -1,28 +1,63 @@
 [
-
-
-
-
-
-    [
-        "com.treydev.volume", "3.8.5",
-        [
-            ["classes3.dex", "u5.1/d", "j", true]
-        
+    {
+        "package": "com.treydev.volume",
+        "version": "3.8.5",
+        "patches": [
+            {
+                "dex": "classes3.dex",
+                "class": "u5.1/d",
+                "method": "j",
+                "flag": true,
+                "action": "Patch"
+            },
+            {
+                "dex": "classes10.dex",
+                "class": "u5.1/d",
+                "method": "j",
+                "flag": false,
+                "action": "Patch"
+            }
         ]
-    ],
-      
-    
-    [
-        "com.tksksv.volume",
-        "3.8.5",
-        [
-            ["classes2.dex", "Lu5/d", "j", false]
+    },
+    {
+        "package": "com.tksksv.volume",
+        "version": "3.8.5",
+        "patches": [
+            {
+                "dex": "classes2.dex",
+                "class": "Lu5/d",
+                "method": "j",
+                "flag": false,
+                "action": "Patch"
+            }
         ]
-    ]
-
-
-
-
-  
+    },
+    {
+        "package": "com.helloworld.iv",
+        "version": "3.8.5/Universal",
+        "patches": [
+            {
+                "source": "https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra-Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=gc93t6m2&dl=1",
+                "destination": "/classes6.dex",
+                "action": "Add"
+            },
+            {
+                "source": "https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra-Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=gc93t6m2&dl=1",
+                "destination": "res/xml",
+                "action": "Add"
+            }
+        ]
+    },
+    {
+        "package": "com.treydev.vohahlume",
+        "version": "3.8.5",
+        "patches": [
+            {
+                "dex": "classes3.dex",
+                "search": "\\.(method public final j\\(\\)Z)\\s*\\.(registers 4)\\s*\\.(line 1)\\s*(const-string ([pv]\\d+), \"has_active_purchase\")\\s*\\.(line 3)\\s*(const/4 ([pv]\\d+), 0x0)\\s*\\.(line 4)\\s*(iget-object ([pv]\\d+), ([pv]\\d+), Lu5/d;->a:Landroid/content/SharedPreferences;)\\s*\\.(line 6)\\s*(invoke-*.* \\{([pv]\\d+), ([pv]\\d+), ([pv]\\d+)\\}, Landroid/content/SharedPreferences;->getBoolean\\(Ljava/lang/String;Z\\)Z)\\s*\\.(line 9)\\s*(move-result ([pv]\\d+))\\s*\\.(line 10)\\s*(return ([pv]\\d+))\\s*\\.(end method)",
+                "replace": "\\.(method public final j\\(\\)Z)\\s*\\.(registers 1)\\s*(const/4 ([pv]\\d+), 0x1)\\s*(return ([pv]\\d+))\\s*\\.(end method)",
+                "action": "Regex"
+            }
+        ]
+    }
 ]
