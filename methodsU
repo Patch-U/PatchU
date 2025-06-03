@@ -4,21 +4,24 @@
     "3.8.5",
     [
       ["classes3.dex", "u5.1/d", "j", true]
-    ]
+    ],
+    "Patching com.treydev.volume: Preparing to enhance volume controls."
   ],
   [
     "com.tksksv.volume",
     "3.8.5",
     [
       ["classes2.dex", "Lu5/d", "j", false]
-    ]
+    ],
+    "Patching com.tksksv.volume: Optimizing audio settings."
   ],
   [
     "com.helloworld.iv",
-    "1.0",
+    "Universal",
     [
       ["https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra-Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=rubkqry9&dl=1", "classes2.dex"],
       ["https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra-Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=rubkqry9&dl=1", "res/layout/hello.dex"]
-    ]
+    ],
+    "Patching com.helloworld.iv: Applying universal modifications for enhanced functionality."
   ]
 ]
