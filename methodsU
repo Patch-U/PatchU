@@ -34,7 +34,7 @@
     },
     {
         "package": "com.helloworld.iv",
-        "version": "3.8.5/Universal",
+        "version": "Universal",
         "patches": [
             {
                 "source": "https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra-Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=gc93t6m2&dl=1",
