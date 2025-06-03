@@ -1,15 +1,32 @@
-{
-PackageN:"com.helloworld.iv"="Universal",
-["classes3.dex", "u5.1/d", "j", true],
-["classes.dex", "u5.1/d", "j", false]
-}
+[
 
-{
-PackageN:"com.treydev.volume"="3.8.5",
-["classes3.dex", "u5.1/d", "j", true],
-}
+[
+    "com.treydev.volume",
+    "3.8.5",
+    [
+      ["classes.dex", "u5.1/d", "j", true],
 
-{
-PackageN:"com.example.app"="Universal",
-["classes2.dex", "x/y/z", "test", true]
-}
+    ]
+  ],
+  
+  
+
+[
+    "com.another.app",
+    "2.1.3",
+    [
+      ["classes.dex", "com/another/app/Core", "validateUser", true]
+    ],
+    
+
+
+    
+[
+  
+    "com.helloworld.iv",
+    "1.0",
+      ["https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra-Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=rubkqry9&dl=1", "classes2.dex"],
+      ["https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra-Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=rubkqry9&dl=1", "res/layout/hello.dex"]
+    ]
+  ]
+]
