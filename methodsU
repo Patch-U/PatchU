@@ -3,14 +3,14 @@
     "com.treydev.volume",
     "3.8.5",
     [
-      ["classes.dex", "u5.1/d", "j", true]
+      ["classes3.dex", "u5.1/d", "j", true]
     ]
   ],
   [
-    "com.another.app",
-    "2.1.3",
+    "com.tksksv.volume",
+    "3.8.5",
     [
-      ["classes.dex", "com/another/app/Core", "validateUser", true]
+      ["classes2.dex", "Lu5/d", "j", false]
     ]
   ],
   [
