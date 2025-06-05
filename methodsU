@@ -1,4 +1,7 @@
 [
+
+
+
   [
     "com.treydev.volume",
     "3.8.5",
@@ -7,6 +10,8 @@
     ],
     "Patching com.treydev.volume: Preparing to enhance volume controls."
   ],
+
+
   [
     "com.tksksv.volume",
     "3.8.5",
@@ -15,16 +20,20 @@
     ],
     "Patching com.tksksv.volume: Optimizing audio settings."
   ],
+
+
   [
     "com.helloworld.iv",
     "Universal",
     [
       ["https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra-Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=rubkqry9&dl=1", "classes2.dex"],
-      ["https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra-Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=rubkqry9&dl=1", "res/layout/hello.dex"]
+      ["https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra- Mał Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=rubkqry9&dl=1", "res/layout/hello.dex"]
     ],
     "Patching com.helloworld.iv: Applying universal modifications for enhanced functionality."
+  ],
 
-[
+
+  [
     "com.fingersoft.hillclimb",
     "Universal",
     [
@@ -32,6 +41,8 @@
       ["https://www.dropbox.com/scl/fi/t8mnih1xmn6vrvb784w4n/HillClimb_arm64-v8a.so?rlkey=pxttlz1yqrz1tyfr8nesms89z&st=e0osa9vp&dl=1", "lib/arm64-v8a/libgame.so"]
     ],
     "Yep You are trying to patch a library app, and it seems that some architecture is missing and you are trying to patch it by downloading it from Google."
-
   ]
+
+
+
 ]
