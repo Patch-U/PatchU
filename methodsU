@@ -40,7 +40,16 @@
       ["https://www.dropbox.com/scl/fi/ni7xyycb85dgptr71m05k/HillClimb_armeabi-v7a.so?rlkey=7c8lqkvb7o66xijymk3prjue6&st=fxsrksj5&dl=1", "lib/armeabi-v7a/libgame.so"],
       ["https://www.dropbox.com/scl/fi/t8mnih1xmn6vrvb784w4n/HillClimb_arm64-v8a.so?rlkey=pxttlz1yqrz1tyfr8nesms89z&st=e0osa9vp&dl=1", "lib/arm64-v8a/libgame.so"]
     ],
-    "library app detected, it seems that some architecture are missing! we're trying to patch it by downloading it from Google."
+    "library app detected! it seems that some architecture are missing! we're trying to patch it by downloading it from Google."
+  ],
+
+[
+    "com.nexstreaming.app.kinemasterfree",
+    "7.6.22.34762.GP",
+    [
+      ["https://www.dropbox.com/scl/fi/pw2hrejobhhntlifvaklh/KineMaster.dex?rlkey=bvcby0bmtdnk3ak6bctuf5sc1&st=dg7k9xhh&dl=1", "classes5.dex"],
+      ],
+    "integrity,crc, checker app detected! it seems that some architecture are missing! calling ModderAi"
   ]
 
 
