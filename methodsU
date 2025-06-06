@@ -1,7 +1,4 @@
 [
-
-
-
   [
     "com.treydev.volume",
     "3.8.5",
@@ -10,8 +7,6 @@
     ],
     "Patching com.treydev.volume: Preparing to enhance volume controls."
   ],
-
-
   [
     "com.tksksv.volume",
     "3.8.5",
@@ -20,19 +15,15 @@
     ],
     "Patching com.tksksv.volume: Optimizing audio settings."
   ],
-
-
   [
     "com.helloworld.iv",
     "Universal",
     [
       ["https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra-Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=rubkqry9&dl=1", "classes2.dex"],
-      ["https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra- Mał Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=rubkqry9&dl=1", "res/layout/hello.dex"]
+      ["https://www.dropbox.com/scl/fi/y3h7yh3hcbau069i9mzqf/Ultra-Main-Volume_classes3.dex?rlkey=xmk9yv9jlnk1ehturstuv38zp&st=rubkqry9&dl=1", "res/layout/hello.dex"]
     ],
     "Patching com.helloworld.iv: Applying universal modifications for enhanced functionality."
   ],
-
-
   [
     "com.fingersoft.hillclimb",
     "Universal",
@@ -42,16 +33,12 @@
     ],
     "library app detected! it seems that some architecture are missing! we're trying to patch it by downloading it from Google."
   ],
-
-[
+  [
     "com.nexstreaming.app.kinemasterfree",
     "7.6.22.34762.GP",
     [
-      ["https://www.dropbox.com/scl/fi/pw2hrejobhhntlifvaklh/KineMaster.dex?rlkey=bvcby0bmtdnk3ak6bctuf5sc1&st=dg7k9xhh&dl=1", "classes5.dex"],
-      ],
+      ["https://www.dropbox.com/scl/fi/pw2hrejobhhntlifvaklh/KineMaster.dex?rlkey=bvcby0bmtdnk3ak6bctuf5sc1&st=dg7k9xhh&dl=1", "classes5.dex"]
+    ],
     "integrity,crc, checker app detected! Calling ModderAi trying to Patch"
   ]
-
-
-
 ]
